@@ -1,7 +1,9 @@
 import React from 'react';
 
-const Header = () => {
-  return <div>Header</div>;
-};
+function Header () {
+  return (
+    <div className='section'>Header</div>
+  )
+}
 
 export default Header;

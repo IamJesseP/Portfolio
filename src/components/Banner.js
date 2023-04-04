@@ -1,7 +1,9 @@
 import React from 'react';
 
-const Banner = () => {
-  return <div>Banner</div>;
-};
+function Banner() {
+  return (
+    <div className='section' id='home'>Banner</div>
+  ) 
+}
 
 export default Banner;
