@@ -11,10 +11,10 @@ function Banner() {
         <div className='container mx-auto'>
           <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-12'>
             <div className='flex-1  font-secondary lg:text-left'>
-              <h1 className='text-[55px] font-bold leading-[0.8] lg:text-[100px]'>
+              <h1 className='text-[50px] font-bold leading-[0.8] lg:text-[70px]'>
                 JESSE <span>PEREZ</span>
               </h1>
-            <div className='mb-6 text-[36px] lg:text-[60px] font-secondary 
+            <div className='mb-6 text-[36px] lg:text-[50px] font-secondary 
             font-semibold uppercase leading-[1] lg:text-left'>
               <span>I am a </span>
               <TypeAnimation 
