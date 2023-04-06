@@ -3,19 +3,32 @@ import Spline from '@splinetool/react-spline';
 //icons
 import {FaGithub, FaLinkedin, FaMedium} from 'react-icons/fa';
 import {TypeAnimation} from 'react-type-animation';
-import {motion} from '../variants'
+import {motion} from 'framer-motion'
+import {fadeIn} from '../variants'
 
 function Banner() {
   return (
-    <section className='section' id='home'>
+    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
         <div className='container mx-auto'>
           <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-12'>
             <div className='flex-1  font-primary lg:text-left'>
-              <h1 className='text-[50px] font-bold leading-[0.8] lg:text-[70px] text-[#1a1818]'>
+              <motion.h1 
+                variants={fadeIn('up', 0.3)} 
+                initial='hidden' 
+                whileInView={'show'}
+                viewport={{once:false, amount:0.7}}
+                className='text-[50px] font-bold leading-[0.8] lg:text-[70px] text-[#1a1818]'
+              >
                 Jesse <span>Perez</span>
-              </h1>
-            <div className='mb-6 text-[36px] lg:text-[50px] font-primary 
-            font-semibold  leading-[1] lg:text-left text-[#1a1818]'>
+              </motion.h1>
+            <motion.div 
+              variants={fadeIn('up', 0.5)} 
+              initial='hidden' 
+              whileInView={'show'}
+              viewport={{once:false, amount:0.7}}
+              className='mb-6 text-[36px] lg:text-[50px] font-primary 
+              font-semibold  leading-[1] lg:text-left text-[#1a1818]'
+            >
               <TypeAnimation 
                 sequence={[
                   'Software Engineer',
@@ -32,12 +45,27 @@ function Banner() {
                 wrapper='span'
                 repeat={Infinity}
                 />
+            </motion.div>
+            <motion.p 
+              variants={fadeIn('up', 0.7)} 
+              initial='hidden' 
+              whileInView={'show'}
+              viewport={{once:false, amount:0.7}}
+              className='text-[#1a1818] font-secondary'
+            >
+              I am a Software Engineering student at Western Governors University. 
+              <br></br>I'm based in San Diego, California
+            </motion.p>
             </div>
-            <p className='text-[#1a1818] font-secondary'>I am a Software Engineering student at Western Governors University. <br></br>I'm based in San Diego, California</p>
-            </div>
-            <div className='xs:ml-[-100px] sm:ml-[-10px] '>
+            <motion.div 
+              variants={fadeIn('down', 0.3)} 
+              initial='hidden' 
+              whileInView={'show'}
+              viewport={{once:false, amount:0.7}}
+              className='xs:ml-[-100px] sm:ml-[-10px]'
+            >
               <Spline  scene="https://prod.spline.design/ael0SPtQzew44egO/scene.splinecode" />
-            </div>
+            </motion.div>
           </div>
         </div>
     </section>

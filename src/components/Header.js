@@ -10,7 +10,7 @@ function Header () {
           <a href='home'>
             <img src={Logo2} alt='logo' className='h-24 p-4' />
           </a>
-          <button className='btn btn-sm'>Projects</button>
+          <button className='btn btn-sm'>Portfolio</button>
         </div>
       </div>
     </header>
