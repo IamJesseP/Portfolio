@@ -1,6 +1,7 @@
 import React from 'react';
 //images
 import Logo2 from '../assets/logo1.svg'
+import { Link } from 'react-scroll';
 
 function Header () {
   return (
@@ -10,7 +11,15 @@ function Header () {
           <a href='home'>
             <img src={Logo2} alt='logo' className='h-24 p-4' />
           </a>
-          <button className='btn btn-sm'>Portfolio</button>
+          <Link 
+          to='work' 
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+          >
+            <button className='btn btn-sm'to='work'>Portfolio</button>
+          </Link>
         </div>
       </div>
     </header>
