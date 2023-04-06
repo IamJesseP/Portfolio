@@ -1,14 +1,13 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
 //icons
-import {FaGithub, FaLinkedin, FaMedium} from 'react-icons/fa';
 import {TypeAnimation} from 'react-type-animation';
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
 function Banner() {
   return (
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='min-h-[95vh] lg:min-h-[78vh] flex items-center pb-[150px]' id='home'>
         <div className='container mx-auto'>
           <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-12'>
             <div className='flex-1  font-primary lg:text-left'>
@@ -51,7 +50,7 @@ function Banner() {
               initial='hidden' 
               whileInView={'show'}
               viewport={{once:false, amount:0.7}}
-              className='text-[#1a1818] font-secondary'
+              className='text-[#1a1818] font-secondary pb-10'
             >
               I am a Software Engineering student at Western Governors University. 
               <br></br>I'm based in San Diego, California
