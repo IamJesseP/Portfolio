@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 
 function App () {
   return (
-    <div className='bg-site'>
+    <div className='bg-[#ece7e1]'>
       <Header />
       <Banner />
       <Nav />

@@ -2,9 +2,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Orbitron',
-      secondary: 'Rajdhani',
+      primary: 'NeueMontreal',
+      secondary: 'Montserrat',
       tertiary: 'Aldrich',
+      neuemontreal: 'NeueMontreal',
     },
     container: {
       padding: {
@@ -12,6 +13,7 @@ module.exports = {
       },
     },
     screens: {
+      xs: '300px',
       sm: '640px',
       md: '768px',
       lg: '960px',

@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,21 +7,21 @@
 .btn {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #dfdfdf 100%,
-    #8356ff 117.04%
+    #000000 21.43%,
+    #353a3b 50.63%,
+    #000000 100%,
+    #000000 117.04%
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  box-shadow: 0px 4.42184px 107.23px rgba(7, 7, 7, 0.51);
 }
 
 .btn:hover {
   background: linear-gradient(
     92.23deg,
-    #4069ff8e 21.43%,
-    #3bace2 50.63%,
-    #9b36ee 100%,
-    #8356ff 117.04%
+    #1a1919 21.43%,
+    #515152 50.63%,
+    #444343 100%,
+    #2b2b2b 117.04%
   );
 }
 
@@ -28,10 +29,10 @@
 .active {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #dfdfdf 100%,
-    #8356ff 117.04%
+    #000000 21.43%,
+    #353a3b 50.63%,
+    #000000 100%,
+    #000000 117.04%
   );
 }
 
@@ -42,6 +43,12 @@
 }
 
 @layer base {
+  @font-face {
+    font-family: 'NeueMontreal';
+    src: url('./assets/fonts/PPNeueMontreal-Medium.otf');
+  }
+
+
   body {
     @apply font-secondary text-lg leading-8 text-white;
   }
@@ -52,7 +59,7 @@
     @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
   }
   .btn {
-    @apply rounded-full font-primary text-white font-medium;
+    @apply rounded-full font-primary text-[white] font-medium;
   }
   .btn-sm {
     @apply h-[48px] px-6 text-sm;
@@ -64,7 +71,7 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#ffffff] to-[#000000] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;

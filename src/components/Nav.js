@@ -13,7 +13,7 @@ function Nav () {
       <div className="container mx-auto">
         <div className='w-full bg-black/20 h-24 backdrop-blur-2xl mx-auto 
         rounded-full max-w-md px-5 flex items-center justify-between
-        text-2xl text-white/60'>
+        text-2xl text-[white/60]'>
           <Link 
           to='home' 
           activeClass='active'
