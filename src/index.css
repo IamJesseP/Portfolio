@@ -80,6 +80,9 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
   .about-heading{
-    @apply  mt-8 mb-[-1px]
+    @apply  mt-8 mb-[-1px];
+  }
+  .tag{
+    @apply px-1 m-1 bg-[#1a1818] rounded-md text-[#ece7e1];
   }
 }
