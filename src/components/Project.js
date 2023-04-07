@@ -5,7 +5,7 @@ import {fadeIn} from '../variants'
 function Project(props) {
     return (
         <motion.div 
-            className="flex-1 container mx-auto pb-6"
+            className="flex-1 container mx-auto"
             variants={fadeIn('right', 0.3)} 
             initial='hidden' 
             whileInView={'show'}

@@ -50,7 +50,7 @@
 
 
   body {
-    @apply font-secondary text-lg leading-8 text-white;
+    @apply font-secondary text-lg leading-8 text-white bg-[#ece7e1];
   }
   /* p{
     @apply font-secondary text-[#1a1818] text-[14px]
