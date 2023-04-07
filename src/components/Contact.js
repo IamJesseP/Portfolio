@@ -26,7 +26,7 @@ function Contact () {
 
   return (
     <section className='section bg-[#d3cfca]  min-h-[85vh] lg:min-h-[78vh] flex items-center' id='contact'>
-      <div className='container mx-auto mt-[85px]'>
+      <div className='container mx-auto '>
         <div className='flex flex-col text-[#1a1818] lg:flex-row tracking-wide'>
         <div>
             <motion.h2 className='text-[60px] lg:text-[90px] leading-none 
@@ -43,7 +43,7 @@ function Contact () {
           variants={fadeIn('left', 0.3)} 
           initial='hidden' 
           whileInView={'show'}
-          viewport={{once:false, amount:0.7}} 
+          viewport={{once:false, amount:0.3}} 
           ref={form}
           action=""
           onSubmit={sendEmail}
@@ -55,21 +55,27 @@ function Contact () {
             className='bg-black/20 border-black p-3 outline-none w-full 
             placeholder:text-black focus:border-accent transition-all rounded-md '
             type='text'
-            placeholder='Your name'
+            placeholder={result ? "" : 'Your name'}
             name='fullName'
+            disabled={result}
+            required
           />
           <input 
             className='bg-black/20 border-black p-3 outline-none w-full 
             placeholder:text-black focus:border-accent transition-all rounded-md'
             type='email'
-            placeholder='Email'
+            placeholder={result ? "" : 'Email'}
             name='email'
+            disabled={result}
+            required
           />
           <textarea 
             className='bg-black/20 border-black p-3 outline-none w-full
              placeholder:text-black focus:border-accent transition-all rounded-md'
-            placeholder='Your message'
+            placeholder={result ? "Thank you for the message. I'll respond soon!" : 'Your message'}
             name='message'
+            disabled={result}
+            required
           ></textarea>
           <div className='flex flex-row flex-wrap justify-center'>
             { !result ? 
@@ -79,13 +85,10 @@ function Contact () {
             }
             { result ? 
                 <motion.button 
-                  className='btn btn-lg' 
-                  input='submit' 
-                  value=''
+                  className='btn btn-lg text-green-700' 
                   variants={fadeIn('up', 0.8)} 
                   initial='hidden' 
                   whileInView={'show'}
-                  viewport={{once:false, amount:0.7}}
                 >
                   Message sent!
                 </motion.button>
