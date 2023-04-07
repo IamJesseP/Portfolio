@@ -9,6 +9,8 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 //
 
+
+//TODO: Finish framer motion for contact, add functionality to contact, add content to about page, deploy build to vercel/netlify
 function App () {
   return (
     <div className='bg-[#ece7e1]'>

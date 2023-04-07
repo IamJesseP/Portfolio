@@ -7,8 +7,8 @@ import {fadeIn} from '../variants'
 
 function Work () {
   return (
-    <section className='section' id='work' >
-      <div className='flex-1 container mx-auto pt-[100px]'>
+    <section className='section min-h-[85vh] lg:min-h-[78vh] flex items-center' id='work' >
+      <div className='flex-1 container mx-auto mt-[85px]'>
         <motion.h2 
           className='h2 p-2 font-primary text-[#1a1818]'
           variants={fadeIn('right', 0.3)} 

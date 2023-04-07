@@ -29,24 +29,17 @@ function Nav () {
           activeClass='active'
           smooth={true}
           spy={true}
+          offset={-3}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
           >
             <BiUser />
           </Link>
-          {/* <Link 
-          to='services' 
-          activeClass='active'
-          smooth={true}
-          spy={true}
-          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
-          >
-            <BsClipboardData />
-          </Link> */}
           <Link 
           to='work' 
           activeClass='active'
           smooth={true}
           spy={true}
+          offset={-3}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
           >
             <BsBriefcase />
@@ -56,6 +49,7 @@ function Nav () {
           activeClass='active'
           smooth={true}
           spy={true}
+          offset={-3}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
           >
             <BsChatSquare />
