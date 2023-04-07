@@ -32,8 +32,8 @@ function Work () {
           tag1="React"
           tag2="Tailwind CSS"
           tag3="Vercel"
-          projectUrl="#"
-          githubUrl="#"
+          projectUrl="https://jesseperez.com"
+          githubUrl="https://github.com/IamJesseP/Portfolio"
         />
         <Project 
           img={etchsketch}
@@ -43,8 +43,8 @@ function Work () {
           tag2="Javascript"
           tag3="Git"
           tag4="Linux"
-          projectUrl="#"
-          githubUrl="#"
+          projectUrl="https://iamjessep.github.io/Etch-A-Sketch/"
+          githubUrl="https://github.com/IamJesseP/Etch-A-Sketch"
         />
 
       </div>

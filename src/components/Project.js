@@ -27,10 +27,10 @@ function Project(props) {
                         {props.tag8 && <li className="tag bg-[#d3cfca] text-[#7e7b79]">{props.tag8}</li>}
                     </ul>
                     <div className="p-4">
-                        <a href={props.projectUrl}>
+                        <a href={props.projectUrl} target='_blank' rel="noreferrer">
                             <button className="tag">See Live</button>
                         </a>
-                        <a href={props.githubUrl}>
+                        <a href={props.githubUrl} target='_blank' rel="noreferrer">
                             <button className="tag">Code</button>
                         </a>
                     </div>
