@@ -29,7 +29,7 @@ function Nav () {
           activeClass='active'
           smooth={true}
           spy={true}
-          offset={-3}
+          offset={40}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
           >
             <BiUser />
@@ -39,7 +39,7 @@ function Nav () {
           activeClass='active'
           smooth={true}
           spy={true}
-          offset={-3}
+          offset={40}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
           >
             <BsBriefcase />
@@ -49,7 +49,7 @@ function Nav () {
           activeClass='active'
           smooth={true}
           spy={true}
-          offset={10}
+          offset={40}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
           >
             <BsChatSquare />
