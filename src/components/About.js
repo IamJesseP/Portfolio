@@ -6,7 +6,7 @@ import profile from "../assets/about1.jpg"
 
 function About () {
   return (
-    <div class='section bg-[#d3cfca]  pb-[300px] pt-[150px] min-h-[85vh] lg:min-h-[78vh] mb-[200px]' id='about'>
+    <section class='section bg-[#d3cfca]  pb-[300px] pt-[150px] min-h-[85vh] lg:min-h-[78vh]' id='about'>
       <div className='container mx-auto'>
         <motion.div 
           className='flex-1 font-primary text-[#1a1818]'
@@ -48,7 +48,7 @@ function About () {
           </div>
         </motion.div>
       </div>
-    </div>
+    </section>
   )
 }
 
