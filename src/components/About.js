@@ -13,7 +13,7 @@ function About () {
 
 
   return (
-    <div class='section bg-[#d3cfca]  pb-[500px] pt-[150px] min-h-[85vh] lg:min-h-[78vh]' id='about'>
+    <div class='section bg-[#d3cfca]  pb-[300px] pt-[150px] min-h-[85vh] lg:min-h-[78vh]' id='about'>
       <div className='container mx-auto'>
         <motion.div 
           className='flex-1 font-primary text-[#1a1818]'
@@ -22,8 +22,8 @@ function About () {
           whileInView={'show'}
           viewport={{once:false, amount:0.4}}
         >
-          <h2 className='h2 about-heading pt-12'>About me</h2>
-          <hr className='text-black w-[90%] h-[2px] m-4 bg-black flex justify-center' />
+          <h2 className='h2 about-heading pt-12 '>About me</h2>
+          <hr className='text-black w-[90%] h-[2px] m-6 bg-black flex justify-center' />
           <img src={profile} alt='profile'className='float-right xs:h-[0px] sm:h-[200px] lg:h-[350px] rounded-md'></img>
           <p className= 'font-secondary flex flex-wrap p-2 text-[16px]'> Lorem ipsum Lorem Lorem Lorem ipsum Lorem Lorem Lorem ipsum Lorem Lorem Lorem ipsum Lorem Lorem</p>
           <h3 className='h3 about-heading'>Hobbies & Interests</h3>
