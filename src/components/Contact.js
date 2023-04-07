@@ -1,5 +1,7 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import {motion} from 'framer-motion'
+import {fadeIn} from '../variants'
 
 function Contact () {
 
@@ -27,9 +29,21 @@ function Contact () {
       <div className='container mx-auto mt-[85px]'>
         <div className='flex flex-col text-[#1a1818] lg:flex-row tracking-wide'>
         <div>
-            <h2 className='text-[60px] lg:text-[90px] leading-none font-primary m-24 xs:mr-[-30px]'>Let's get in <br/>touch!</h2>
+            <motion.h2 className='text-[60px] lg:text-[90px] leading-none 
+              font-primary m-24 xs:mr-[-30px]'
+              variants={fadeIn('right', 0.3)} 
+              initial='hidden' 
+              whileInView={'show'}
+              viewport={{once:false, amount:0.7}}
+            >
+              Let's get in <br/>touch!
+            </motion.h2>
         </div>
-        <form 
+        <motion.form
+          variants={fadeIn('left', 0.3)} 
+          initial='hidden' 
+          whileInView={'show'}
+          viewport={{once:false, amount:0.7}} 
           ref={form}
           action=""
           onSubmit={sendEmail}
@@ -58,21 +72,27 @@ function Contact () {
             name='message'
           ></textarea>
           <div className='flex flex-row flex-wrap justify-center'>
-            
             { !result ? 
               <button className='btn btn-lg' input='submit' value='Send'>
                 Send Message
               </button> : null 
             }
             { result ? 
-              <div className='font-secondary text-[#1a1818] flex-1 sm:ml-10 sm:mt-1 text-center'> 
-                <button className='btn btn-lg' input='submit' value=''>
+                <motion.button 
+                  className='btn btn-lg' 
+                  input='submit' 
+                  value=''
+                  variants={fadeIn('up', 0.8)} 
+                  initial='hidden' 
+                  whileInView={'show'}
+                  viewport={{once:false, amount:0.7}}
+                >
                   Message sent!
-                </button>
-              </div> : null
+                </motion.button>
+               : null
             }
           </div>
-        </form>
+        </motion.form>
         </div>
       </div>
     </section>
