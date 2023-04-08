@@ -2,7 +2,7 @@
 A single page app to learn a little bit more about me, my skills, and personal projects
 
 
-A live preview of my project is [here](https:/www.jesseperez.dev)
+A live preview of my project can be found [here](https:/www.jesseperez.dev)
 
 ### Technologies
 * HTML
