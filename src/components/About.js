@@ -21,8 +21,8 @@ function About () {
           <div className='leading-5 text-[16px]'>
             <p className= 'font-secondary flex flex-wrap p-2'>
               After spending the past six years in the healthcare industry, I resparked my passion for technology at the peak of the COVID pandemic. 
-              I worked 12 hour shifts on the COVID floor for the first six months at the start of the pandemic. A large escape for me was re-exploring
-              basic programming through learning resources such as Codeacademy and Youtube. I have always been fond of tech-related things, from building PCs 
+              I worked 12 hour shifts on the COVID floor of my hospital for the first six months at the start of the pandemic. A large escape for me was re-exploring
+              basic programming through learning resources such as Codeacademy. I have always been fond of tech-related things, from building PCs 
               to learning basic programming in high school, but I was steered toward becoming a healthcare professional as I grew older. </p>
             <p className= 'font-secondary flex flex-wrap p-2'>
               As my interest in software engineering deepened, I recognized it as my true calling and made the decision to fully commit to it by 
@@ -36,11 +36,11 @@ function About () {
           </div>
           <h3 className='h3 about-heading'>Hobbies & Interests</h3>
           <ul className='flex p-4 flex-wrap font-secondary text-sm text-black'>
-            <li className= 'tag bg-black/20 text-black'>🎮Gamer boy</li>
             <li className= 'tag bg-black/20 text-black'>🌆City explorer</li>
             <li className= 'tag bg-black/20 text-black'>🥘Foodie </li>
             <li className= 'tag bg-black/20 text-black'>📺Anime/K-drama</li>
             <li className= 'tag bg-black/20 text-black'>🎾Tennis</li>
+            <li className= 'tag bg-black/20 text-black'>🎮Gamer boy</li>
             <li className= 'tag bg-black/20 text-black'>🖥️PC building</li>
             <li className= 'tag bg-black/20 text-black'>⌨️Mechanical keyboards</li>
             <li className= 'tag bg-black/20 text-black'>🎲D&D</li>

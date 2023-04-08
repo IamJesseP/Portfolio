@@ -16,7 +16,7 @@ function Banner() {
                 initial='hidden' 
                 whileInView={'show'}
                 viewport={{once:false, amount:0.7}}
-                className='text-[50px] font-bold leading-[0.8] lg:text-[70px] text-[#1a1818]'
+                className='text-[50px] sm:text-[50px] md:text-[50px] font-bold leading-[0.8] lg:text-[70px] text-[#1a1818] xs:text-[38px]'
               >
                 Jesse Perez
               </motion.h1>
@@ -26,7 +26,7 @@ function Banner() {
               whileInView={'show'}
               viewport={{once:false, amount:0.7}}
               className='mb-6 text-[36px] lg:text-[50px] font-primary 
-              font-semibold  leading-[1] lg:text-left text-[#1a1818]'
+              font-semibold  leading-[1] lg:text-left text-[#1a1818] xs:text-[30px]'
             >
               <TypeAnimation 
                 sequence={[
@@ -50,7 +50,7 @@ function Banner() {
               initial='hidden' 
               whileInView={'show'}
               viewport={{once:false, amount:0.7}}
-              className='text-[#1a1818] font-secondary pb-10'
+              className='text-[#1a1818] font-secondary pb-10 xs:text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]'
             >
               I am a Software Engineering student at Western Governors University. 
               <br></br>I'm based in San Diego, California
