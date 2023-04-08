@@ -32,7 +32,7 @@ function Work () {
           tag1="React"
           tag2="Tailwind CSS"
           tag3="Vercel"
-          projectUrl="https://jesseperez.com"
+          projectUrl="https://www.jesseperez.dev"
           githubUrl="https://github.com/IamJesseP/Portfolio"
         />
         <Project 

@@ -52,9 +52,7 @@
   body {
     @apply font-secondary text-lg leading-8 text-white bg-[#ece7e1];
   }
-  /* p{
-    @apply font-secondary text-[#1a1818] text-[14px]
-  } */
+
   .h2 {
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
   }
