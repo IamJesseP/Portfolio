@@ -34,7 +34,7 @@ function Work () {
           tag2=".NET Framework"
           tag3="Windows Forms"
           tag4="Git"
-          projectUrl="https://github.com/IamJesseP/InventoryManagementSystem/blob/main/Install/InvMngSys.application"
+          projectUrl="https://github.com/IamJesseP/InventoryManagementSystem"
           githubUrl="https://github.com/IamJesseP/InventoryManagementSystem"
         />
         <Project 
