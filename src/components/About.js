@@ -7,13 +7,13 @@ import profile from "../assets/about1.jpg"
 function About () {
   return (
     <section class='section' id='about'>
-      <div className='container mx-auto mt-[85px] md:pt-[100px] pb-[50px]'>
+      <div className='container mx-auto mt-[85px] md:pt-[100px] pb-[250px]'>
         <motion.div 
           className='flex-1 font-primary text-[#1a1818]'
           variants={fadeIn('up', 0.7)} 
           initial='hidden' 
           whileInView={'show'}
-          viewport={{once:false, amount:0.1}}
+          viewport={{once:false, amount:0.2}}
         >
           <h2 className='h2 about-heading pt-12 '>About me</h2>
           <hr className='text-black w-[90%] h-[2px] m-6 bg-black flex justify-center' />

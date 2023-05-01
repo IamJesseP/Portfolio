@@ -15,7 +15,7 @@ function Work () {
           variants={fadeIn('right', 0.3)} 
           initial='hidden' 
           whileInView={'show'}
-          viewport={{once:false, amount:0.3}}
+          viewport={{once:false, amount:0.5}}
         >
           Projects
         </motion.h2>

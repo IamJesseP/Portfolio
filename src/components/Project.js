@@ -9,7 +9,7 @@ function Project(props) {
             variants={fadeIn('right', 0.3)} 
             initial='hidden' 
             whileInView={'show'}
-            viewport={{once:false, amount:0.4}}
+            viewport={{once:false, amount:0.64}}
         >
             <div className="sm:flex py-4 flex flex-wrap">
             <img src={props.img} alt='project' className='rounded-lg sm:max-w-xs max-h-[240px] drop-shadow-lg mt-14'></img>
