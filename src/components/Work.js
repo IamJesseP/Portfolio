@@ -8,8 +8,8 @@ import {fadeIn} from '../variants'
 
 function Work () {
   return (
-    <section className='section min-h-[85vh] lg:min-h-[78vh] flex items-center' id='work' >
-      <div className='flex-1 container mx-auto mt-[85px]'>
+    <section className='section' id='work' >
+      <div className='flex-1 container mx-auto mt-[85px] md:pt-[350px] mb-[100px]'>
         <motion.h2 
           className='h2 p-2 font-primary text-[#1a1818]'
           variants={fadeIn('right', 0.3)} 
@@ -29,7 +29,7 @@ function Work () {
         <Project 
           img={inventoryProj}
           title='Inventory Management System'
-          description="A Windows Forms Application (.NET Framework) inventory management application written in C#."
+          description="A Windows Forms(.NET Framework) inventory management application written in C#."
           tag1="C#"
           tag2=".NET Framework"
           tag3="Windows Forms"

@@ -49,7 +49,7 @@ function Nav () {
           activeClass='active'
           smooth={true}
           spy={true}
-          offset={40}
+          offset={340}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
           >
             <BsChatSquare />

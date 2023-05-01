@@ -6,8 +6,8 @@ import profile from "../assets/about1.jpg"
 
 function About () {
   return (
-    <section class='section bg-[#d3cfca] min-h-[85vh] lg:min-h-[78vh] flex items-center' id='about'>
-      <div className='container mx-auto mt-[85px] pb-[50px]'>
+    <section class='section' id='about'>
+      <div className='container mx-auto mt-[85px] md:pt-[100px] pb-[50px]'>
         <motion.div 
           className='flex-1 font-primary text-[#1a1818]'
           variants={fadeIn('up', 0.7)} 
