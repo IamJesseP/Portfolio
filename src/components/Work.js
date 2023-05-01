@@ -2,6 +2,7 @@ import React from 'react';
 import Project from './Project.js';
 import etchsketch from '../assets/etchsketch.gif'
 import portfolio from '../assets/portfolio.gif'
+import inventoryProj from '../assets/invmng.gif'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
@@ -25,6 +26,17 @@ function Work () {
           whileInView={'show'}
           viewport={{once:false, amount:0.7}}
         ></motion.hr>
+        <Project 
+          img={inventoryProj}
+          title='Inventory Management System'
+          description="A Windows Forms Application (.NET Framework) inventory management application written in C#."
+          tag1="C#"
+          tag2=".NET Framework"
+          tag3="Windows Forms"
+          tag4="Git"
+          projectUrl="https://github.com/IamJesseP/InventoryManagementSystem/blob/main/Install/InvMngSys.application"
+          githubUrl="https://github.com/IamJesseP/InventoryManagementSystem"
+        />
         <Project 
           img={portfolio}
           title='Personal Portfolio'
