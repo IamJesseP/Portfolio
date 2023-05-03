@@ -58,7 +58,6 @@ function Work () {
           projectUrl="https://iamjessep.github.io/Etch-A-Sketch/"
           githubUrl="https://github.com/IamJesseP/Etch-A-Sketch"
         />
-
       </div>
     </section>
   )
