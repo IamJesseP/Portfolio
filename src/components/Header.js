@@ -19,7 +19,7 @@ function Header () {
           offset={40}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
           >
-            <button className='btn btn-sm'to='work'>Portfolio</button>
+            <button className='btn btn-sm'to='work'>Projects</button>
           </Link>
         </div>
       </div>
