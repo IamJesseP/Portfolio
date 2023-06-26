@@ -88,6 +88,7 @@ function Contact () {
                   variants={fadeIn('up', 0.8)} 
                   initial='hidden' 
                   whileInView={'show'}
+                  disabled= {result}
                 >
                   Message sent!
                 </motion.button>
