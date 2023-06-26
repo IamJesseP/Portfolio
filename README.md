@@ -18,7 +18,7 @@ A live preview of my project can be found [here](https:/www.jesseperez.dev)
 
 ### Functionality
 
-* A working contact page using EmailJS, state, and conditional rendering
+* A working contact page using EmailJS API, state, and conditional rendering
 * Reuseable card components for the Projects section, using props
 * Scrollable pages using react-scroll
 * Animated elements using framer-motion and react-type-animation
@@ -31,4 +31,5 @@ A live preview of my project can be found [here](https:/www.jesseperez.dev)
 * Developing custom animations using framer-motion and react-type-animation
 * Creating scrollable pages using react-scroll
 * Using foundational React concepts such as components, state, and props
+* Implementing third party APIs to the frontend
 
