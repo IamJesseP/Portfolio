@@ -25,7 +25,7 @@ function Contact () {
 
   return (
     <section className='section' id='contact'>
-      <div className='container mx-auto mt-[200px] pb-[300px]  mb-[-500px]'>
+      <div className='container mx-auto'>
         <div className='flex flex-col text-[#1a1818] lg:flex-row tracking-wide'>
         <div>
             <motion.h2 className='text-[60px] lg:text-[90px] leading-none 

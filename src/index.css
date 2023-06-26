@@ -42,12 +42,47 @@
   border-radius: 100%;
 }
 
+
+
 @layer base {
   @font-face {
     font-family: 'NeueMontreal';
     src: url('./assets/fonts/PPNeueMontreal-Medium.otf');
   }
 
+  .section {
+    @apply flex items-center;
+}
+
+@media (min-width: 300px) {
+    .section {
+        @apply py-4 mb-2 ;
+    }
+}
+
+@media (min-width: 640px) {
+    .section {
+        @apply py-8 mb-4;
+    }
+}
+
+@media (min-width: 768px) {
+    .section {
+        @apply py-12 mb-8;
+    }
+}
+
+@media (min-width: 960px) {
+    .section {
+        @apply py-16 mb-12;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section {
+        @apply py-24 mb-16;
+    }
+}
 
   body {
     @apply font-secondary text-lg leading-8 text-white bg-[#ece7e1];
@@ -74,9 +109,7 @@
   .text-gradient {
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#ffffff] to-[#000000] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
-  .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
-  }
+
   .about-heading{
     @apply  mt-8 mb-[-1px];
   }

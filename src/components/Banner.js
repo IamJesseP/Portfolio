@@ -1,6 +1,8 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
 //icons
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
+import {FaFilePdf} from 'react-icons/fa6';
 import {TypeAnimation} from 'react-type-animation';
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
@@ -8,8 +10,8 @@ import {fadeIn} from '../variants'
 function Banner() {
   return (
     <section className='section' id='home'>
-        <div className='container mx-auto'>
-          <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-12'>
+        <div className='container mx-auto lg:mt-[-80px]'>
+          <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-12 mt-12'>
             <div className='flex-1 font-primary lg:text-left'>
               <motion.h1 
                 variants={fadeIn('up', 0.3)} 
@@ -54,6 +56,17 @@ function Banner() {
             >
               I am a Software Engineering student at Western Governors University. 
               <br></br>I'm based in San Diego, California
+          <div className='flex text-[#1a1818] mt-2'>
+            <a href='https://github.com/IamJesseP' target='_blank' rel="noreferrer">
+              <FaGithub className='h-12 w-12 m-4' />
+            </a>
+            <a href='https://www.linkedin.com/in/iamjessep/' target='_blank' rel="noreferrer">
+              <FaLinkedin className='h-12 w-12 m-4' />
+            </a>
+            <a href='https://drive.google.com/file/d/1dH9dqQwHQwk1Q7jfVKRV6xgYtQ6eUxxF/view?usp=sharing' target='_blank' rel="noreferrer">
+              <FaFilePdf className='h-12 w-12 m-4' />
+            </a>
+          </div>
             </motion.p>
             </div>
             <motion.div 

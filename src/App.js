@@ -19,7 +19,7 @@ function App () {
       <About />
       <Work />
       <Contact />
-      
+      <div className='pb-[400px]'></div>
     </div>
   );
 };
