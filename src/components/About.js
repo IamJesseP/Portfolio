@@ -69,7 +69,7 @@ function About () {
               <h3 className='mb-[-8px]'>
                Machine Learning Fellow
               </h3>
-               <span className='tag bg-black/20 text-black font-secondary text-sm'>HeadStarter</span>
+               <span className='tag bg-black/20 text-black font-secondary text-sm'>SureStart</span>
                <p className='text-sm font-secondary max-w-[700px] ml-4'>
                 • Immersed in AI concepts, focusing on <u>machine learning algorithms</u>, <u>deep learning models</u>, and <u>ethical AI considerations</u>.<br/>
                 • Applied theoretical understanding of machine learning models to develop practical AI solutions during the <u>SureStart x MIT Futuremakers</u> Create-a-thon event, including data preprocessing, model selection, training, and evaluation. <br/>
