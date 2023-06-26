@@ -12,7 +12,7 @@ function Contact () {
 
     e.preventDefault();
 
-    emailjs.sendForm('service_vi5i1jm', 'template_3wvb7zr', form.current, 'laIERl0rEC3uPR8Gs')
+    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, 'template_3wvb7zr', form.current, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
