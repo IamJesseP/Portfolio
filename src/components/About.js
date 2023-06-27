@@ -52,8 +52,8 @@ function About () {
         {showMore ? extraContent : null}
       </p>
           </div>
-          <h3 className='h3 about-heading'>Hobbies & Interests</h3>
-          <ul className='flex p-4 flex-wrap font-secondary text-sm text-black'>
+          <h3 className='h3 about-heading mt-[0px]'>Hobbies & Interests</h3>
+          <ul className='flex p-4 flex-wrap font-secondary text-sm text-black mt-[-8px]'>
             <li className= 'tag bg-black/20 text-black'>🌆City explorer</li>
             <li className= 'tag bg-black/20 text-black'>🥘Foodie </li>
             <li className= 'tag bg-black/20 text-black'>📺Anime/K-drama</li>
@@ -63,10 +63,10 @@ function About () {
             <li className= 'tag bg-black/20 text-black'>⌨️Mechanical keyboards</li>
             <li className= 'tag bg-black/20 text-black'>🎲D&D</li>
           </ul>
-          <h3 className='h3 about-heading mt-[0px]'>Experiences</h3>
+          <h3 className='h3 about-heading mt-[-8px]'>Experiences</h3>
           <ul className='ml-4'>
             <li>
-              <h3 className='mb-[-8px]'>
+              <h3 className='mb-[-8px] mt-[-6px]'>
                Machine Learning Fellow
               </h3>
                <span className='tag bg-black/20 text-black font-secondary text-sm'>SureStart</span>
@@ -89,7 +89,7 @@ function About () {
             </li>
           </ul>
           <h3 className='h3 about-heading mt-[0px]'>Skills</h3>
-          <ul className='font-secondary flex flex-wrap p-2'>
+          <ul className='font-secondary flex flex-wrap p-2 mt-[-8px]'>
             <li class='tag'>Javascript</li>
             <li class='tag'>C#</li>
             <li class='tag'>Python</li>
