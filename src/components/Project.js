@@ -12,9 +12,11 @@ function Project(props) {
             viewport={{once:true}}
         >
             <div className="sm:flex py-4 flex flex-wrap">
+            <div className="mt-10">
             <a href={props.projectUrl} target='_blank' rel="noreferrer">
-                <img src={props.img} alt='project' className='rounded-lg sm:max-w-xs max-h-[240px] drop-shadow-lg mt-10'></img>
+                <img src={props.img} alt='project' className='rounded-lg sm:max-w-xs max-h-[240px] drop-shadow-lg'></img>
             </a>
+            </div>
                 <div className="flex flex-col font-secondary p-6 text-[#1a1818]">
                     <h3 className='h3 font-primary mb-[-1px]'>{props.title}</h3>
                     <p className="max-w-sm">{props.description}</p>
