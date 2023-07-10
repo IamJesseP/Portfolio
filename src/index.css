@@ -42,6 +42,11 @@
   border-radius: 100%;
 }
 
+.spline{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
 
 
 @layer base {

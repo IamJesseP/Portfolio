@@ -76,7 +76,7 @@ function Banner() {
               viewport={{once:false, amount:0.8}}
               className='xs:ml-[-100px] sm:ml-[-10px] xs:hidden]'
             >
-              <Spline  scene="https://prod.spline.design/ael0SPtQzew44egO/scene.splinecode" />
+              <Spline  className='spline' scene="https://prod.spline.design/ael0SPtQzew44egO/scene.splinecode" />
             </motion.div>
           </div>
         </div>
