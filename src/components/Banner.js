@@ -63,7 +63,7 @@ function Banner() {
             <a href='https://www.linkedin.com/in/iamjessep/' target='_blank' rel="noreferrer">
               <FaLinkedin className='h-12 w-12 m-4' />
             </a>
-            <a href='https://drive.google.com/file/d/1dH9dqQwHQwk1Q7jfVKRV6xgYtQ6eUxxF/view?usp=sharing' target='_blank' rel="noreferrer">
+            <a href='https://drive.google.com/file/d/1XX77plAEbgjgg6uaQtCQ-X5E6JgUJp8_/view?usp=sharing' target='_blank' rel="noreferrer">
               <FaFilePdf className='h-12 w-12 m-4' />
             </a>
           </div>

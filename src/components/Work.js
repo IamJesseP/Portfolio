@@ -1,9 +1,9 @@
 import React from 'react';
 import Project from './Project.js';
 import taskmngmt from '../assets/taskmngmt.gif'
-import portfolio from '../assets/portfolio.gif'
 import inventoryProj from '../assets/invmng.gif'
 import newsagg from '../assets/newsagg.gif'
+import ecobots from '../assets/ecobots.gif'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
@@ -27,6 +27,20 @@ function Work () {
           whileInView={'show'}
           viewport={{once:true}}
         ></motion.hr>
+          <Project 
+            img={ecobots}
+            title='Ecobots - AI Recycling Companion'
+            description='An AI full-stack application utilizing React, Node.js, Express.js, YOLOv8 model, and the Hugging Face API. Users can upload a picture of their recyclable item to have it identified by our AI model as well as given summary findings of the individual impact they will have to the environment for recycling the item.  '
+            tag1="React"
+            tag2="Node.JS"
+            tag3="Express.js"
+            tag4="RESTful API"
+            tag5="Jupyter Notebooks, Ultralytics YOLOv8"
+            tag6="Hugging Face API, OpenAI API"
+            tag7="Vercel/Heroku"
+            projectUrl="https://ecobots.vercel.app/"
+            githubUrl="https://github.com/IamJesseP/EcoBots-AI-Recycling"
+          />
           <Project 
             img={newsagg}
             title='Forecast-News Aggregator'
@@ -65,16 +79,6 @@ function Work () {
           tag4="Git"
           projectUrl="https://github.com/IamJesseP/InventoryManagementSystem"
           githubUrl="https://github.com/IamJesseP/InventoryManagementSystem"
-        />
-        <Project 
-          img={portfolio}
-          title='Personal Portfolio'
-          description="You're already here! A single page app to learn a little bit more about me, my skills, and personal projects"
-          tag1="React"
-          tag2="Tailwind CSS"
-          tag3="Vercel"
-          projectUrl="https://www.jesseperez.dev"
-          githubUrl="https://github.com/IamJesseP/Portfolio"
         />
       </div>
     </section>
