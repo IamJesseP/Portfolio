@@ -4,6 +4,7 @@ import taskmngmt from '../assets/taskmngmt.gif'
 import inventoryProj from '../assets/invmng.gif'
 import newsagg from '../assets/newsagg.gif'
 import ecobots from '../assets/ecobots.gif'
+import appointment from '../assets/appointment.gif'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
@@ -30,7 +31,7 @@ function Work () {
           <Project 
             img={ecobots}
             title='Ecobots - AI Recycling Companion'
-            description='An AI full-stack application utilizing React, Node.js, Express.js, YOLOv8 model, and the Hugging Face API. Users can upload a picture of their recyclable item to have it identified by our AI model as well as given summary findings of the individual impact they will have to the environment for recycling the item.  '
+            description='An AI full-stack recycling application. Users can upload a picture of their recyclable item to have it identified by our AI model as well as given summary findings of the individual impact they will have to the environment for recycling the item.  '
             tag1="React"
             tag2="Node.JS"
             tag3="Express.js"
@@ -44,7 +45,7 @@ function Work () {
           <Project 
             img={newsagg}
             title='Forecast-News Aggregator'
-            description='A full-stack application that aims to provide users with an interface to view weather data, air quality data, and news articles based on the city and state they input.  '
+            description='A full-stack application that provides users with an interface to view weather data, air quality data, and news articles based on the city and state they input.  '
             tag1="React"
             tag2="Node.JS"
             tag3="Express.js"
@@ -58,7 +59,8 @@ function Work () {
           <Project 
             img={taskmngmt}
             title='Tech Incubator'
-            description='A fullstack task management application written with React, Nodejs, and Firebase. '
+            description='A fullstack task management application. Registered users are given role-based access, customizing user experiences based on their roles, with special functionalities
+            like task claiming and status updates for students, and task creation and monitoring for companies. '
             tag1="React"
             tag2="Node.JS"
             tag3="Express.js"
@@ -69,17 +71,30 @@ function Work () {
             projectUrl="https://task-management-app-nine-beryl.vercel.app/"
             githubUrl="https://github.com/IamJesseP/Task-Management-App"
           />
-        <Project 
-          img={inventoryProj}
-          title='Inventory Management System'
-          description="A Windows Forms(.NET Framework) inventory management application written in C#."
-          tag1="C#"
-          tag2=".NET Framework"
-          tag3="Windows Forms"
-          tag4="Git"
-          projectUrl="https://github.com/IamJesseP/InventoryManagementSystem"
-          githubUrl="https://github.com/IamJesseP/InventoryManagementSystem"
-        />
+          <Project 
+            img={appointment}
+            title='Appointment Scheduler'
+            description="A Windows Forms(.NET Framework) appointment application written in C#, connected to a MySQL database."
+            tag1="C#"
+            tag2=".NET Framework"
+            tag3="Windows Forms"
+            tag4="MySQL"
+            tag5="MVC System Design"
+            tag6="Git"
+            projectUrl="https://github.com/IamJesseP/Appointment-Scheduler"
+            githubUrl="https://github.com/IamJesseP/Appointment-Scheduler"
+          />
+          <Project 
+            img={inventoryProj}
+            title='Inventory Management System'
+            description="A Windows Forms(.NET Framework) inventory management application written in C#."
+            tag1="C#"
+            tag2=".NET Framework"
+            tag3="Windows Forms"
+            tag4="Git"
+            projectUrl="https://github.com/IamJesseP/InventoryManagementSystem"
+            githubUrl="https://github.com/IamJesseP/InventoryManagementSystem"
+          />
       </div>
     </section>
   )

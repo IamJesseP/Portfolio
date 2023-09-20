@@ -19,7 +19,7 @@ function Project(props) {
             </div>
                 <div className="flex flex-col font-secondary p-6 text-[#1a1818]">
                     <h3 className='h3 font-primary mb-[-1px]'>{props.title}</h3>
-                    <p className="max-w-sm">{props.description}</p>
+                    <p className="max-w-md">{props.description}</p>
                     <ul className="flex flex-wrap p-2 mb-[-12px] max-w-[450px]">
                         {props.tag1 && <li className="tag bg-[#d3cfca] text-[#7e7b79]">{props.tag1}</li>}
                         {props.tag2 && <li className="tag bg-[#d3cfca] text-[#7e7b79]">{props.tag2}</li>}
